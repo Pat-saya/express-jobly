@@ -1,11 +1,37 @@
-# Jobly Backend
+# Express Jobly
 
-This is the Express backend for Jobly, version 2.
+A backend job board application built with Node.js, Express, PostgreSQL, and JWT authentication.
 
-To run this:
+## Features
 
-    node server.js
-    
-To run the tests:
+- JWT authentication
+- Admin authorization
+- Companies CRUD
+- Jobs CRUD
+- Job applications
+- Dynamic filtering
+- JSON Schema validation
+- PostgreSQL relational database
+- Jest and Supertest testing
 
-    jest -i
+---
+
+## Technologies Used
+
+- Node.js
+- Express.js
+- PostgreSQL
+- JWT
+- bcrypt
+- Jest
+- Supertest
+- JSON Schema
+
+---
+
+## Installation
+
+Install dependencies:
+
+```bash
+npm install
